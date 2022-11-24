@@ -24,3 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   })
 })
+
+/*ACCORDION*/
+$( function() {
+  $( "#accordion" ).accordion({
+    collapsible: true
+});
+} );
+
+
+
