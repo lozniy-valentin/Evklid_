@@ -197,11 +197,14 @@ a {
 .about-content {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .about-content__left {
+  margin-right: 10px;
+  padding-bottom: 10px;
   width: 868px;
   min-height: 622px;
   display: flex;
@@ -238,11 +241,13 @@ a {
 }
 
 .about-content__right {
+  margin-top: 10px;
   max-width: 870px;
 }
 
 .about-right__item {
   background-position: left 65px center;
+  margin-bottom: 20px;
   background-repeat: no-repeat;
   padding: 65px 105px 65px 298px;
   border: 1px solid var(--gray);
@@ -281,7 +286,7 @@ a {
 }
 
 .work-left {
-  width: 44%;
+  width: 50%;
   min-height: 465px;
   display: flex;
   flex-direction: column;

@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-1024.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -18,11 +19,17 @@
 <body>
   <header class="header">
     <div class="container header__container">
+      <button class="burger btn-reset">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
       <a href="" class="logo header__logo">
-        <img src="img/Logo.svg" alt="Логотип ЕВКЛИД">
+        <img class="logo__img" src="img/Logo.svg" alt="Логотип ЕВКЛИД">
       </a>
       <div class="header__inner">
         <nav class="nav">
+          <button class="menu-close btn-reset"></button>
           <ul class="nav__list list-reset">
             <li class="nav__item"><a href="#" class="nav__link"></a> О нас </li>
             <li class="nav__item"><a href="#" class="nav__link"></a> Проект</li>
@@ -304,7 +311,8 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="JS/swiper-bundle.min.js"></script>
     <script src="JS/jquery-3.6.1.min.js"></script>
     <script src="JS/jquery-ui.js"></script>
     <script src="JS/script.js"></script>
