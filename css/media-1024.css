@@ -48,6 +48,7 @@
 
   .logo__img {
     width: 150px;
+    padding-left: 15px;
   }
 
   .search {
@@ -56,6 +57,7 @@
 
   .nav {
     width: 420px;
+    height: 768px;
     position: absolute;
     left: -100vw;
     padding: 50px;
@@ -102,6 +104,69 @@
     .nav.burger-active {
       left: 0;
       transition: left .5s ease-in-out;
+    }
+
+    .hero {
+      height: 670px;
+    }
+
+    .swiper-slide {
+      padding-top: 162px;
+    }
+
+    .hero-content__heading {
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 73px;
+      margin-bottom: 15px;
+    }
+
+    .hero-content__text {
+      font-size: 20px;
+      line-height: 24px;
+      max-width: 675px;
+      margin-bottom: 60px;
+    }
+
+    .swiper-pagination-bullets-active {
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullets {
+      display: flex;
+      width: 15px;
+      height: 15px;
+      background-color: #FFF;
+    }
+
+    .about__container {
+      margin-top: 80px;
+    }
+
+    .site-heading {
+      margin-bottom: 7px;
+    }
+
+    .about-content__left {
+      min-height: 640px;
+    }
+
+    .about-right__item {
+      padding-top: 94px;
+    }
+
+    .footer-wrapper,
+    .form__area {
+      min-width: 100%;
+    }
+
+    .footer__form {
+      max-width: 540px;
+    }
+
+    .footer-right {
+      display: block;
+      width: 59%;
     }
 
 }
